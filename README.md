@@ -13,3 +13,18 @@ The main objective of this project is to find differences in the behaviour or th
 ![Estimated Shark Lethality by Species](./images/lethality.png)
 ### Shark Aggresivity by Species
 ![Shark Aggresivity by Species](./images/aggresivity.png)
+## Conclusions Summary
+* The data analysed seem to be representetive and not biased by the process of cleaning and text normalization
+* Tiger Shark, White Shark and Bull Shark seem to be the species more aggresive, more leathal and the ones involved in more attacks
+
+## Be Careful with Them!!!
+
+### White Shark
+![White Shark](./images/white-shark.jpg)
+*Public domain photo on [Unsplash](https://unsplash.com/)*
+### Tiger Shark
+![Tiger Shark](./images/tiger-shark.jpg)
+*[CC3](https://creativecommons.org/licenses/by-sa/3.0) photo by Albert on [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Tiger_shark.jpg)*
+### Bull Shark
+![Bull Shark](./images/bull-shark.jpg)
+*Public domain photo by Albert on [Wikimedia Commons](https://commons.wikimedia.org/w/index.php?curid=1723717)*
