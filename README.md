@@ -1,4 +1,4 @@
-# Ironhack Bootcamp First Project
+# Ironhack Bootcamp First Project: Data Cleaning Pandas
 
 ## Basic information
 * **Project Author**: Sergi Portolés. 
@@ -6,7 +6,7 @@
 * This project does not use any type of stadistical analysis and it is mearly based on data visualization after a process of cleaning and text normalization.
 ## Main Objective
 The main objective of this project is to find differences in the behaviour or the outcome of shark attacks depending on the species.
-## Results
+## Results Summary
 ### Shark Attacks by Species
 ![Shark Attacks by Species](./images/shark-species.png)
 ### Estimated Shark Lethality by Species
@@ -14,8 +14,8 @@ The main objective of this project is to find differences in the behaviour or th
 ### Shark Aggresivity by Species
 ![Shark Aggresivity by Species](./images/aggresivity.png)
 ## Conclusions Summary
-* The data analysed seem to be representetive and not biased by the process of cleaning and text normalization
-* Tiger Shark, White Shark and Bull Shark seem to be the species more aggresive, more leathal and the ones involved in more attacks
+* The data analysed seems to be representetive and not biased by the process of cleaning and text normalization.
+* Tiger Shark, White Shark and Bull Shark seem to be the shark species more aggresive, more leathal and the ones involved in more attacks.
 
 ## Be Careful with Them!!!
 
