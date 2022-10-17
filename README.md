@@ -28,3 +28,9 @@ The main objective of this project is to find differences in the behaviour or th
 ### Bull Shark
 ![Bull Shark](./images/bull-shark.jpg)
 *Public domain photo by Albert on [Wikimedia Commons](https://commons.wikimedia.org/w/index.php?curid=1723717)*
+
+## Bonus: Shark attacks over the years
+![Shark Attacks over Years](./images/aggresivity.png)
+### Conclusion
+* It is possible that Tigers Sharks had a big decrease in their global population between 1960 and 1980
+* It is possible that White Sharks had a big decrease in their global population between 1980 and 2000

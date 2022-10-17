@@ -4,6 +4,9 @@ October 2022
 """
 # GENERAL CLEANING FUNCTIONS
 
+from pandas import DataFrame
+
+
 def import_clean (dataset_loc, encod):
     """
     Takes a dataset in csv format and returns a pandas object without blank lines and duplicates
@@ -146,3 +149,28 @@ def norm_biase(dataset, to_norm):
     sharks_fatal4['Percentage'] = sharks_fatal4['Percentage'].mask((sharks_fatal4['Percentage'] < 100) & (sharks_fatal4['Percentage'] > 0) & (sharks_fatal4["Fatal (Y/N)"]=="N"), other=sharks_fatal4['Percentage']*false_norm, axis=0)
     sharks_fatal4['Percentage'] = sharks_fatal4['Percentage'].mask((sharks_fatal4['Percentage'] < 100) & (sharks_fatal4['Percentage'] > 0) & (sharks_fatal4["Fatal (Y/N)"]=="Y"), other=sharks_fatal4['Percentage']*true_norm, axis=0)
     return sharks_fatal4
+
+## YEAR CLEANING AND GROUP
+def years_aggr(year):
+    if year == 0:
+        return None
+    elif year <= 1920:
+        year = "1"
+    elif year <= 1960:
+        year = "2"
+    elif year <= 1980:
+        year = "3"
+    elif year <= 2000:
+        year = "4"
+    elif year <= 2010:
+        year = "5"
+    elif year > 2010:
+        year = "6"
+    else:
+        return None
+    return year
+def years_norm(dataframe):
+    sharks_years = dataframe.copy()
+    sharks_years.Year = sharks_years.Year.apply(years_aggr)
+    skarks_years = sharks_years.dropna(subset="Year")
+    return skarks_years
